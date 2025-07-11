@@ -1,4 +1,4 @@
-import { View, Text, Image, StyleSheet, Platform } from 'react-native';
+import { View, Text, Image, Platform } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function HomeScreen() {
@@ -6,10 +6,9 @@ export default function HomeScreen() {
         <SafeAreaView>
             <View>
                 
-                <Text>Hello, World!</Text>
+                <Text className="text-3xl text-blue-500" >Hello, World!</Text>
             </View>
         </SafeAreaView>
     );
 }
 
-const styles = StyleSheet.create({});
